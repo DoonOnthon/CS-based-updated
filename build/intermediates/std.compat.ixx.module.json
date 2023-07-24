@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "E:\\basedAim\\based-master\\build\\intermediates\\std.compat.ixx.obj",
+            "outputs": [
+                "E:\\basedAim\\based-master\\build\\intermediates\\vc143.pdb",
+                "E:\\basedAim\\based-master\\build\\intermediates\\",
+                "E:\\basedAim\\based-master\\build\\intermediates\\std.compat.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "std.compat",
+                    "source-path": "e:\\vs\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\modules\\std.compat.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "std"
+                }
+            ]
+        }
+    ]
+}
